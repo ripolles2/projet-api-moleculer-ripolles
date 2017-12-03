@@ -1,0 +1,83 @@
+{
+  "todos": [
+    {
+      "id": "afb01be2-759e-4480-a9ec-6ff81a611834",
+      "name": "Nope",
+      "completed": false
+    }
+  ],
+  "utilisateur": [
+    {
+      "id": "01d971e3-574a-4a71-aa8f-1d278669ed55",
+      "email": "aa@aa.com",
+      "nom": "test",
+      "prenom": "testetetzzzzzzzzzzzzzzzzzzzze",
+      "completed": false
+    },
+    {
+      "id": "212909bf-33a5-4bcc-9b96-954d6911914b",
+      "email": "aaaaaaaaa",
+      "nom": "aaaaa",
+      "prenom": "aaaaaaaaa"
+    },
+    {
+      "id": "a5a1c728-3dcd-498a-8204-b12b5d3ca21b",
+      "email": "aaabbbaaaaaa",
+      "nom": "aaaaa",
+      "prenom": "aaaaaaaaa"
+    }
+  ],
+  "produit": [
+    {
+      "id_produit": "63078a22-684e-4ef5-9421-1dee173e962e",
+      "titre": "aaaa",
+      "description": "rtyyt",
+      "prix": 5,
+      "stock": 10
+    },
+    {
+      "id_produit": "da27e7f0-3e25-49ee-a805-40ad6093fb80",
+      "titre": "test",
+      "description": "test",
+      "prix": 5,
+      "stock": 100
+    }
+  ],
+  "commande": [
+    {
+      "produit": "",
+      "id_commande": "b24aa4f3-616d-4c12-9e01-8e6389f4f995",
+      "id_utilisateur": "a5a1c728-3dcd-498a-8204-b12b5d3ca21b",
+      "quantite": 10,
+      "valid": false
+    },
+    {
+      "produit": "",
+      "id_commande": "ba595096-5427-49e5-9316-c451f7d98146",
+      "id_utilisateur": "a5a1c728-3dcd-498a-8204-b12b5d3ca21b",
+      "quantite": 0,
+      "valid": false
+    },
+    {
+      "produit": "",
+      "id_commande": "9e5fd787-93b3-42ac-883d-794b5ffdb486",
+      "id_utilisateur": "a5a1c728-3dcd-498a-8204-b12b5d3ca21b",
+      "quantite": 0,
+      "valid": false
+    },
+    {
+      "produit": "da27e7f0-3e25-49ee-a805-40ad6093fb80",
+      "id_commande": "b5f1c6a9-95e1-42d2-971e-467ca38e8478",
+      "id_utilisateur": "a5a1c728-3dcd-498a-8204-b12b5d3ca21b",
+      "quantite": 0,
+      "valid": true
+    },
+    {
+      "produit": "",
+      "id_commande": "ec5991bd-05c9-417f-b9b6-a0867a7c30a3",
+      "id_utilisateur": "212909bf-33a5-4bcc-9b96-954d6911914b",
+      "quantite": 0,
+      "valid": false
+    }
+  ]
+}
